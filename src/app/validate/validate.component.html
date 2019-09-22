@@ -1,0 +1,32 @@
+<mat-card style="align-items: center;">
+    <mat-card-title>
+    <mat-toolbar >
+        <span>Welcome {{param1}}</span>
+      </mat-toolbar>
+</mat-card-title>
+
+<mat-card-content>
+<mat-tab-group style="">
+    <mat-tab label="Step 1">
+        <mat-toolbar style="">
+            <span>Enter your Aadhar number</span>
+          </mat-toolbar>
+          <mat-form-field>
+            <textarea matInput placeholder="Textarea"></textarea>
+          </mat-form-field>
+    </mat-tab>
+    <mat-tab label="Step 2">
+        <mat-toolbar style="">
+            <span>Enter the otp recived</span>
+          </mat-toolbar>
+      <p>...</p>
+    </mat-tab>
+    <mat-tab label="Step 3">
+        <mat-toolbar style="">
+            <span>Elinked succesfully</span>
+          </mat-toolbar>
+        <p>...</p>
+      </mat-tab>
+  </mat-tab-group>
+</mat-card-content>
+
